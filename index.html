@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1" style="background-image: url('images/don gl.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="content">
+                <div class="div-widget">
+                    <div data-role="collapsible">
+                        <h1>RESTAURANTE "DON GRILLO"</h1>
+                        <textarea placeholder="Calle 6 Sur 304 Centro Histórico, Heroica Puebla de Zaragoza, PUE 01 222 232 4513"
+                        data-theme="e"></textarea>
+                    </div>
+                </div>
+                <div class="div-widget">
+                    <div data-role="collapsible" data-theme="e" data-content-theme="b">
+                        <h1>MENU</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li id="dasayuno">
+                                <a href="#page7">DESAYUNO</a>
+                            </li>
+                            <li id="comida">
+                                <a href="#page2">COMIDA</a>
+                            </li>
+                            <li id="cena">
+                                <a href="#page8">CENA</a>
+                            </li>
+                            <li id="bebidas">
+                                <a href="#page5">BEBIDAS</a>
+                            </li>
+                            <li id="postres">
+                                <a href="#page6">POSTRES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>Sopas</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <textarea placeholder="Sopa de Camarón Con Crujiente de Jamón Serrano y Manzana Verde $125"
+                    data-theme="b"></textarea>
+                    <img src="images/spa de cama.jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Capuccino a los Tres Quesos Suizo, Cheddar y Gouda al Aroma de Trufa $155"
+                    data-theme="b"></textarea>
+                    <img src="images/cap.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="Sopa de Verduras (90 grs) Verduras Frescas, Cebada Perla y Jitomate Caramelizado $115"
+                    data-theme="b"></textarea>
+                    <img src="images/sopa de ver.jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Sopa de Cebolla Croutón, Costra de Queso Parmesano y Gruyére $125"
+                    data-theme="b"></textarea>
+                    <img src="images/sopa de cebolla.jpg" style="display: block; margin: 0 auto"
+                    />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" id="siguiente" href="#page3">SIGUIENTE</a>
+                <a data-role="button" href="#page1">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page3">
+            <div data-role="header">
+                <h1>ENSALADAS</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <textarea placeholder="Ensalada de Espinaca Aderezo Tibio Agridulce, Tocino y Nuez $155"
+                    data-theme="b"></textarea>
+                    <img src="images/ENSALADA - copia (2).jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Ensalada de Berros Con Vinagreta de Mostaza Dijon, Tocino y Piñones $145"
+                    data-theme="b"></textarea>
+                    <img src="images/ENSALADA - copia (3).jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Ensalada Mediterranée Mezclum, Jitomate, Pepino, Palmito, Vinagreta de Aceituna Negra y Crujiente Parmesano $155"
+                    data-theme="b"></textarea>
+                    <img src="images/ENSALADA - copia (4).jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Ensalada César Anchoas, Mostaza Dijon, Queso Parmesano y Croutón al Ajo $155"
+                    data-theme="b"></textarea>
+                    <img src="images/ENSALADA - copia (5).jpg" style="display: block; margin: 0 auto"
+                    />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" id="siguiente" href="#page4">SIGUIENTE</a>
+                <a data-role="button" href="#page1">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page4">
+            <div data-role="header">
+                <h1>CARNES</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <textarea placeholder="Costillas de Ternera (350 grs) Papa al Horno y Verduras al Vapor $335"
+                    data-theme="c"></textarea>
+                    <img src="images/ternera.jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Filete En Salsa de Morillas (200 grs.) Papa al Gratín y Ratatouille de Verduras $335"
+                    data-theme="c"></textarea>
+                    <img src="images/salsasa.jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Filete Wellington (200 grs) En Pasta Hojaldrada, Jamón Serrano y Salsa al Oporto $345"
+                    data-theme="c"></textarea>
+                    <img src="images/weer.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="Estofado de Res a la Bourguignon (200 grs) Con Pasta a la Mantequilla y Verduras $335"
+                    data-theme="c"></textarea>
+                    <img src="images/asf.jpg" style="display: block; margin: 0 auto" />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page1">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page5">
+            <div data-role="header">
+                <h1>BEBIDAS</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <textarea placeholder="FRANCESES DE BORDEAUX La Romance Chateau Chenu Lafitte Chateau Renaissance Chateau Castera  Bordeaux Bordeaux Superior Pomerol Medoc Cru Bourgeois    2009  2001  2006  $590  $595  $1,100  $1,200"
+                    data-theme="c"></textarea>
+                    <img src="images/vinoa.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="FRANCESES DE BOURGOGNE Bourgogne  Pinot noir 2011  $990"
+                    data-theme="c"></textarea>
+                    <img src="images/vinos.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="Agua SantaMaria Refrescos Limonada y Naranjada               Precio $29 $35 $45"
+                    data-theme="c"></textarea>
+                    <img src="images/rln.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="  NACIONALES La Cetto Santo Tomás Chateau Domecq Casa Madero  Reserva Privada Nebbiolo Merlot Cosecha seleccionada Malbec Año 2009  2012  2008  2011  Precio $590  $690  $710  $750"
+                    data-theme="c"></textarea>
+                    <img src="images/vios.jpg" style="display: block; margin: 0 auto" />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page1">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page6">
+            <div data-role="header">
+                <h1>POSTRES</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <textarea placeholder="$110 Crujiente de Fresa Mousse de Chocolate Créme Brulée Crépas con Cajeta Tarta Tatin"
+                    data-theme="c"></textarea>
+                    <img src="images/cho.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="FLAMEOS $140 Higos al Kirsch Fresas Jubilée Crépas Suzette"
+                    data-theme="c"></textarea>
+                    <img src="images/higo.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="SOUFFLÉS $110 Pistache Limón Cocoa Calvados Grand Marnier"
+                    data-theme="c"></textarea>
+                    <img src="images/so.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="$110 Soufflé de Tequila Soufflé de Rompope" data-theme="c"></textarea>
+                    <img src="images/t.jpg" style="display: block; margin: 0 auto" />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" id="menu" href="#page1">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page7">
+            <div data-role="header">
+                <h1>DESALLUNOS</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <textarea placeholder="Huevos rancheros II: Frijoles, Salsa, Totopos  $35"></textarea>
+                    <img src="images/hr.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="Chilaquiles verdes: Queso.Lechuga,Crema,Cebolla   $30"></textarea>
+                    <img src="images/cv.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="LICUADOS: Fresa, Chocolate,Platano,Guayaba  $15"></textarea>
+                    <img src="images/lic.jpg" style="display: block; margin: 0 auto" />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" id="menu" href="#page1">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page8">
+            <div data-role="header">
+                <h1>CENAS</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <textarea placeholder="Tortilla de calabacín y gambas : Tortilla hecha de calabacin con cebolla y gambas  $55"></textarea>
+                    <img src="images/to.jpg" style="display: block; margin: 0 auto" />
+                    <textarea placeholder="Cena catracha: Aguacate, Frijoles, Platano y Salsa  $70"></textarea>
+                    <img src="images/descarga (1).jpg" style="display: block; margin: 0 auto"
+                    />
+                    <textarea placeholder="Crepes vegetales: Rellenas de puerro cocido y zanahoria cocida  $80"></textarea>
+                    <img src="images/crepes.jpg" style="display: block; margin: 0 auto" />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" id="menu" href="#page1">MENU</a>
+            </div>
+        </div>
+    </body>
+
+</html>
